@@ -126,11 +126,9 @@
             <field name="model">product.template</field>
             <field name="inherit_id" ref="product.product_template_form_view" />
             <field name="arch" type="xml">
-                <div name="options" position="after">
-                  <group>
-                    <field name="product_style_line_id" placeholder="Line"/>
-                  </group>
-                </div>
+              <group name="group_general" position="inside">
+                <field name="product_style_line_id" placeholder="Line"/>
+              </group>
             </field>
         </record>
 
