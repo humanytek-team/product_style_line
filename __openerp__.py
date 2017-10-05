@@ -4,7 +4,7 @@
 
 {
     'name': 'Product Style Lines Manager',
-    'version': '9.0.1.0.0',
+    'version': '9.0.1.0.1',
     'category': 'Product',
     'summary': 'Product Style Lines Manager',
     'author': 'Humanytek',
